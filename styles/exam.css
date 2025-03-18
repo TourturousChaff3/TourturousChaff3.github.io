@@ -47,7 +47,7 @@ body {
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-p a img {
+article p img {
     width: 150px;
     height: auto;
     border-radius: 10px;
