@@ -22,6 +22,7 @@ aside {
     background-color: rgb(107, 179, 189);
     padding: .5em;
     border-color:black;
+    border: 2px;
 }
 aside ol {
     list-style-type: upper-roman;
