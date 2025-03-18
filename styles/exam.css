@@ -23,7 +23,7 @@ aside {
     border: 2px solid black;
 }
 #ol2 {
-    list-style-type:georgian;
+    list-style-type: lower-alpha;
 }
 aside ol {
     list-style-type: upper-roman;
