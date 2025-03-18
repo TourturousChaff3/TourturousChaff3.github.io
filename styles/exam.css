@@ -82,7 +82,6 @@ article {
     column-rule:5px dashed rgb(10, 25, 233);
     column-gap: 2em;
     margin-left: 2em;
-    border-top: 2px solid blue;
 }
 article h1 {
     color: blue;
