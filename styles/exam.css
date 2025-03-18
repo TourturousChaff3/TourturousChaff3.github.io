@@ -60,6 +60,7 @@ header {
     clear: both;
     border-bottom: 2px solid blue;
     border-top: 2px solid blue;
+    padding: 10px;
 }
 header h1 {
     font-size: 175%;
