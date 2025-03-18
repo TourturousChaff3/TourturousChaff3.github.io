@@ -85,18 +85,6 @@ article p::first-letter {
     font-weight: bold;
     font-style: italic;
 }
-main {
-    clear: left;
-}
-main h3 {
-    margin: 3em 2em 1.5em;
-    font-size: 105%;
-    border: 5px double blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px blue;
-    padding: 1em;
-}
-
 footer {
     clear:both;
     border-top: 2px solid blue;
