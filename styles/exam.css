@@ -54,14 +54,6 @@ header h2 {
     color: #800000;
     text-indent: 30px;
 }
-header img {
-    float: left;
-    margin-left: 2em;
-    border: 3px black;
-}
-.shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
-}
 article {
     clear:both;
     width: 70%;
@@ -96,24 +88,7 @@ main h3 {
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
-main nav {
-    margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: .5em;
 
-}
-#id {
-    line-height: 105%;
-}
-main div{
-    margin: 1.5em 2em 0 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-}
 footer {
     clear:both;
     border-top: 2px solid maroon;
@@ -121,12 +96,4 @@ footer {
 footer p.copyright {
     text-align: center;
     font-size: 80%;
-}
-p.fixed{
-    width: auto;
-    position: fixed;
-    bottom: 5%;
-    right: 25%;
-    border: 3px solid darkgreen;
-    background-color: lightgreen
 }
