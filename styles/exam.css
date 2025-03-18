@@ -22,7 +22,7 @@ aside {
     padding: .5em;
     border: 2px solid black;
 }
-aside #ol2 {
+#ol2 {
     list-style-type: none;
 }
 aside ol {
