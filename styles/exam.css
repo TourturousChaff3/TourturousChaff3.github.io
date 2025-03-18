@@ -20,6 +20,9 @@ aside {
     background-color: rgb(107, 179, 189);
     padding: .5em;
 }
+aside ol {
+    list-style-type: upper-roman;
+}
 html {
     background-image: linear-gradient(to bottom, white 0%, blue 100%);
 }
