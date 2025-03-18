@@ -18,6 +18,7 @@ aside {
     float: right;
     background-color: rgb(107, 179, 189);
     padding: .5em;
+    border-color:black
 }
 aside ol {
     list-style-type: upper-roman;
