@@ -79,6 +79,7 @@ article {
     column-rule:2px dotted rgb(10, 25, 233);
     column-gap: 2em;
     margin-left: 2em;
+    border-bottom: 2px solid blue;
 }
 article h1 {
     color: blue;
