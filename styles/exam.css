@@ -61,7 +61,6 @@ a:hover, a:focus {
 }
 header {
     clear: both;
-    border-bottom: 2px solid blue;
     border-top: 2px solid blue;
     padding: 10px;
 }
