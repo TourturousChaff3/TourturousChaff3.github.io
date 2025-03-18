@@ -63,6 +63,9 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
+article h1 {
+    color: blue;
+}
 article h2 {
     color: blue;
 }
