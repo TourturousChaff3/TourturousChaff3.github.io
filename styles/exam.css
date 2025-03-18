@@ -15,7 +15,7 @@
 aside {
     width: 20%;
     float: right;
-    background-color: #089;
+    background-color: rgb(107, 179, 189);
     padding: .5em;
 }
 html {
@@ -38,20 +38,20 @@ body {
 }
 a:hover, a:focus {
     font-style: italic;
-    color: orangered;
+    color: blue;
 }
 header {
     clear: both;
-    border-bottom: 2px solid maroon;
+    border-bottom: 2px solid blue;
 }
 header h1 {
     font-size: 175%;
-    color: maroon;
+    color: blue;
     text-indent: 30px;
 }
 header h2 {
     font-size: 130%;
-    color: #800000;
+    color: blue;
     text-indent: 30px;
 }
 article {
@@ -75,7 +75,6 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: lightseagreen;
 }
 main {
     clear: left;
@@ -85,7 +84,7 @@ main h3 {
     font-size: 105%;
     border: 5px double blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px 4px blue;
     padding: 1em;
 }
 
