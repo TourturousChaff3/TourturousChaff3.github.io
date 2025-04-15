@@ -68,4 +68,12 @@ table.third tbody tr td {
 table.third tbody tr:first-child td {
     border-top: 1px solid #000;
 }
-    
+@media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }    
+}
