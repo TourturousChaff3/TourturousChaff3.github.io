@@ -86,4 +86,14 @@
     transform: rotate(-405deg);
     }
     /*----end of menu*/
-    
+    /* Link styles */
+    section a {
+    text-decoration: none;
+    color: white;
+    }
+  
+    .menu a:hover,
+    .menu .current a {
+    text-decoration: underline;
+    }
+  
