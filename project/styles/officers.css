@@ -37,63 +37,59 @@ body {
     transition: all 0.3s ease;
   }
   /* Default shared styles */
-.officer-grid article {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    background-color: #fff;
-  }
-  
-  .officer-grid article:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Unique Borders */
-  .advisor-k {
-    border: 5px solid orange;
-  }
-  
-  .advisor-w {
-    border: 5px dashed darkorange;
-  }
-  
-  .president {
-    border: 5px solid royalblue;
-  }
-  
-  .officer-b {
-    border: 5px dotted teal;
-  }
-  
-  .officer-p {
-    border: 5px double purple;
-  }
-  
-  /* Profile image (if present) */
-  .officer-grid img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid currentColor;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  
+
   /* Responsive adjustments for smaller screens */
   @media (max-width: 768px) {
     .floating-logo img {
       height: 60px;
     }
+  }
+  .officer-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Make each article full-width with a rectangular border */
+  .officer-grid article {
+    display: flex;
+    align-items: center;
+    border: 4px solid orange;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 900px; /* optional: controls max width */
+    margin: 0 auto;    /* center horizontally */
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .officer-grid article:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Profile image styling */
+  .officer-grid img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-right: 20px;
+  }
+  
+  /* Text content inside article */
+  .officer-grid h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .officer-grid p {
+    margin: 5px 0 0;
+    font-size: 1rem;
   }
   
   @media (max-width: 480px) {
