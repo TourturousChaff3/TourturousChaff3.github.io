@@ -45,13 +45,40 @@ body {
     }
   }
   .officer-grid {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "advisor-k advisor-w"
+      "president president"
+      "officer-b officer-p";
     gap: 20px;
     padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
   }
   
-  /* Make each article full-width with a rectangular border */
+  /* Assign each card to a grid area */
+  .advisor-k {
+    grid-area: advisor-k;
+  }
+  
+  .advisor-w {
+    grid-area: advisor-w;
+  }
+  
+  .president {
+    grid-area: president;
+  }
+  
+  .officer-b {
+    grid-area: officer-b;
+  }
+  
+  .officer-p {
+    grid-area: officer-p;
+  }
+  
+  /* Shared card style */
   .officer-grid article {
     display: flex;
     align-items: center;
@@ -59,9 +86,6 @@ body {
     border-radius: 20px;
     padding: 20px;
     background-color: #fff;
-    width: 100%;
-    max-width: 900px; /* optional: controls max width */
-    margin: 0 auto;    /* center horizontally */
     box-sizing: border-box;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
@@ -71,7 +95,6 @@ body {
     transform: scale(1.02);
   }
   
-  /* Profile image styling */
   .officer-grid img {
     width: 120px;
     height: 120px;
@@ -80,18 +103,6 @@ body {
     border: 3px solid orange;
     margin-right: 20px;
   }
-  
-  /* Text content inside article */
-  .officer-grid h2 {
-    margin: 0;
-    font-size: 1.5rem;
-  }
-  
-  .officer-grid p {
-    margin: 5px 0 0;
-    font-size: 1rem;
-  }
-  
   @media (max-width: 480px) {
     .floating-logo img {
       height: 50px;
