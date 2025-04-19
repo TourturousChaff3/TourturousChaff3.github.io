@@ -36,6 +36,58 @@ body {
     width: auto;
     transition: all 0.3s ease;
   }
+  /* Default shared styles */
+.officer-grid article {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .officer-grid article:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Unique Borders */
+  .advisor-k {
+    border: 5px solid orange;
+  }
+  
+  .advisor-w {
+    border: 5px dashed darkorange;
+  }
+  
+  .president {
+    border: 5px solid royalblue;
+  }
+  
+  .officer-b {
+    border: 5px dotted teal;
+  }
+  
+  .officer-p {
+    border: 5px double purple;
+  }
+  
+  /* Profile image (if present) */
+  .officer-grid img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid currentColor;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
   
   /* Responsive adjustments for smaller screens */
   @media (max-width: 768px) {
